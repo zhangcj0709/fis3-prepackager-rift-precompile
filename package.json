@@ -1,0 +1,26 @@
+{
+  "name": "fis3-prepackager-rift-precompile",
+  "version": "1.0.0",
+  "description": "precompile and package handlebars template files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangcj0709/fis3-prepackager-rift-precompile.git"
+  },
+  "keywords": [
+    "fis3"
+  ],
+  "author": "zhangcj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangcj0709/fis3-prepackager-rift-precompile/issues"
+  },
+  "homepage": "https://github.com/zhangcj0709/fis3-prepackager-rift-precompile#readme",
+  "dependencies": {
+    "handlebars": "^1.3.0"
+  },
+  "devDependencies": {}
+}
