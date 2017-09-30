@@ -1,6 +1,6 @@
 {
   "name": "fis3-prepackager-rift-precompile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "precompile and package handlebars template files",
   "main": "index.js",
   "scripts": {

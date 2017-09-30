@@ -43,6 +43,7 @@ module.exports = function(ret, conf, settings, opt) {
   fis.util.write(to, compiledContent, 'utf8', false);
   fis.log.info("Precompiled handlebars templates to '" + to + "'!");
   templateFile = fis.file(to);
+  templateFile.useCache = false;
   fis.compile(templateFile); //重编译templates.js文件
   var packTo = templateFile.packTo;
   if (packTo && templateFile.release) {
